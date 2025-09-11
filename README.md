@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 📢 About Me:
 Hola, soy Juan Cambronero<br><br>Estudiante de 2 año de Desarrollo de Aplicaciones Multiplataforma (DAM)<br>Interesado en el desarrollo de software, bases de datos y ciberseguridad<br>Con el objetivo de crecer como programador y convertirme en un profesional versátil en el mundo tecnológico.
 
 
