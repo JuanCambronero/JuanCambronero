@@ -27,7 +27,7 @@ My goal is simple: **become a highly competent developer capable of building sol
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,js,html,css,postgres,git,maven,vscode,intellij&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=java,angular,js,html,css,git,maven,spring,vscode,eclipse,mongodb,mysql,postgres&theme=dark" />
 </p>
 
 Main tools I work with:
