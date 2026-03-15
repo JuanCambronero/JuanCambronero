@@ -1,7 +1,7 @@
 <h1 align="center">Juan Cambronero</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=00F7FF&center=true&vCenter=true&width=500&lines=Backend+Developer;Java+%7C+Spring+Enthusiast;Building+Secure+Systems;Always+Learning" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=00F7FF&center=true&vCenter=true&width=500&lines=Backend+Developer;Java+%7C+Spring;Building+Secure+Systems;Always+Learning" />
 </p>
 
 ---
