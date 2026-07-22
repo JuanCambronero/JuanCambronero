@@ -35,6 +35,7 @@ jobs:
           python make_stack.py
           python make_stats.py
           python make_timemaster.py
+          python make_projects.py
           python render_activity.py
           python render_heatmap_svg.py
 

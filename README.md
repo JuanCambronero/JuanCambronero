@@ -28,32 +28,27 @@ Lo que se me da bien: coger un problema, entender el dominio que hay detrás y c
 
 <br>
 
-## TimeMaster
+## Proyectos
 
-<table>
-<tr>
-<td valign="top" width="380">
+Plataforma de gestión de tareas y personal para equipos de mantenimiento, inspirada en sistemas EAM empresariales como IBM Maximo. Proyecto Final de Ciclo.
+
 <a href="https://github.com/JuanCambronero/TimeMasterApp">
-  <img src="art/timemaster.svg" width="370" alt="TimeMaster: flujo de estados de una tarea, validado en el servidor." />
+  <img src="art/timemaster.svg" width="100%" alt="TimeMaster: plataforma full stack con Spring Boot 3, Angular 17 y PostgreSQL. Flujo de estados validado en el servidor. Calificado 10/10, 119 commits." />
 </a>
-</td>
-<td valign="top">
 
-Plataforma de gestión de tareas y personal para equipos de mantenimiento, inspirada en sistemas EAM empresariales como IBM Maximo.
+<p align="center">
+  <a href="https://github.com/JuanCambronero/SecMec"><img src="art/proj-secmec.svg" width="420" alt="SecMec: sistema de gestión clínica en Java" /></a>
+  <a href="https://github.com/JuanCambronero/BasketWorld"><img src="art/proj-basketworld.svg" width="420" alt="BasketWorld: web de baloncesto con tienda online" /></a>
+</p>
 
-**API** — Spring Boot 3, arquitectura en capas, DTOs, pool HikariCP
+<p align="center">
+  <a href="https://github.com/JuanCambronero/Sistema-Gestion-Colegio"><img src="art/proj-colegio.svg" width="420" alt="Sistema Gestión Colegio: práctica de POO en Python" /></a>
+  <a href="https://github.com/JuanCambronero/Simulacion-de-Hormigas-Java"><img src="art/proj-hormigas.svg" width="420" alt="Simulación de Hormigas: algoritmo de colonia en Java" /></a>
+</p>
 
-**Datos** — PostgreSQL a través de Spring Data JPA
-
-**Acceso** — Control por roles (Manager / Operario) con Spring Security
-
-**Flujo** — Estados validados en el servidor: `Pendiente → En curso → En revisión → Completada/Rechazada`
-
-**UI** — Angular 17 standalone, Tailwind CSS, validación en tiempo real y gestión documental con protección UUID
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <sub>También: <a href="https://github.com/JuanCambronero/Impostor">Impostor</a> · <a href="https://github.com/JuanCambronero/Hundir-la-flota">Hundir la flota</a> · <a href="https://github.com/JuanCambronero/Tic-Tac-Toe">Tic-Tac-Toe</a> — ejercicios de lógica en Python.</sub>
+</p>
 
 <br>
 
@@ -93,5 +88,5 @@ Plataforma de gestión de tareas y personal para equipos de mantenimiento, inspi
 </p>
 
 <p align="center">
-  <sub>Todo lo animado de esta página son SVG generados con Python desde <a href="scripts/">scripts</sub>
+  <sub>Animaciones en SVG generados con Python desde <a href="scripts/">scripts/</a>, sin servicios de terceros. Un GitHub Action los actualiza cada día.</sub>
 </p>
