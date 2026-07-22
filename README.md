@@ -16,7 +16,10 @@
 
 ## Sobre mí
 
-<img src="art/about.svg" width="100%" alt="Hice mis prácticas en Viewnext (Grupo IBM), en el área que trabaja con IBM Maximo. Me enganchó cómo estaba pensada. Cuando acabaron las prácticas, se acabó el acceso. No intenté clonar Maximo: cogí una sola idea y construí algo enfocado solo en eso. Eso es TimeMaster: Spring Boot 3, Angular 17 y PostgreSQL. 119 commits, Proyecto Final de Ciclo, 10/10. Me titulé en DAM en junio de 2026 y curso Ingeniería Informática en la UNED, a distancia, con plena disponibilidad para jornada completa." />
+<picture>
+  <source media="(max-width: 560px)" srcset="art/about-movil.svg" />
+  <img src="art/about.svg" width="100%" alt="Hice mis prácticas en Viewnext (Grupo IBM), en el área que trabaja con IBM Maximo. Me enganchó cómo estaba pensada. Cuando acabaron las prácticas, se acabó el acceso. No intenté clonar Maximo: cogí una sola idea y construí algo enfocado solo en eso. Eso es TimeMaster: Spring Boot 3, Angular 17 y PostgreSQL. 119 commits, Proyecto Final de Ciclo, 10/10. Me titulé en DAM en junio de 2026 y curso Ingeniería Informática en la UNED, a distancia, con plena disponibilidad para jornada completa." />
+</picture>
 
 <br>
 
@@ -36,7 +39,10 @@
   <a href="https://github.com/JuanCambronero/Simulacion-de-Hormigas-Java"><img src="art/proj-hormigas.svg" width="420" alt="Simulación de Hormigas: algoritmo de colonia en Java" /></a>
 </p>
 
-<img src="art/txt-otros.svg" width="100%" alt="También: Impostor · Hundir la flota · Tic-Tac-Toe — ejercicios de lógica en Python." />
+<picture>
+  <source media="(max-width: 560px)" srcset="art/txt-otros-movil.svg" />
+  <img src="art/txt-otros.svg" width="100%" alt="También: Impostor · Hundir la flota · Tic-Tac-Toe — ejercicios de lógica en Python." />
+</picture>
 
 <br>
 
@@ -46,7 +52,10 @@
   <img src="art/stack.svg" width="100%" alt="Java 17, Spring Boot, Spring Data JPA, Spring Security, Angular, TypeScript, PostgreSQL, REST APIs, Tailwind, React, Node.js, JavaScript, Kotlin, Python, MySQL, MongoDB, Git, Maven, HTML5, CSS3, IntelliJ, Scrum, DTOs, RBAC" />
 </p>
 
-<img src="art/txt-stack.svg" width="100%" alt="Lo que uso primero: Java 17 · Spring Boot · Spring Data JPA · Spring Security · Angular · TypeScript · PostgreSQL · APIs REST" />
+<picture>
+  <source media="(max-width: 560px)" srcset="art/txt-stack-movil.svg" />
+  <img src="art/txt-stack.svg" width="100%" alt="Lo que uso primero: Java 17 · Spring Boot · Spring Data JPA · Spring Security · Angular · TypeScript · PostgreSQL · APIs REST" />
+</picture>
 
 <br>
 
@@ -67,7 +76,10 @@
 
 <br>
 
-<img src="art/txt-pie.svg" width="100%" alt="Madrid · juancambronerofresco@gmail.com · Respondo a todo. Animaciones en SVG generados con Python desde scripts/, sin servicios de terceros." />
+<picture>
+  <source media="(max-width: 560px)" srcset="art/txt-pie-movil.svg" />
+  <img src="art/txt-pie.svg" width="100%" alt="Madrid · juancambronerofresco@gmail.com · Respondo a todo. Animaciones en SVG generados con Python desde scripts/, sin servicios de terceros." />
+</picture>
 
 <p align="center">
   <sub><a href="mailto:juancambronerofresco@gmail.com">Escríbeme</a> · <a href="scripts/">Cómo está hecho esto</a></sub>

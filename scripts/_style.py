@@ -51,6 +51,34 @@ def panel(w: int, h: int, title: str = "", right: str = "") -> str:
     return out
 
 
+def wrap(texto: str, max_chars: int) -> list[str]:
+    """Parte un texto en lineas de como mucho max_chars.
+
+    Respeta los tramos marcados con |resaltado|: si una linea termina
+    dentro de un tramo, lo cierra y lo vuelve a abrir en la siguiente.
+    Las barras no cuentan para el ancho porque no se pintan.
+    """
+    lineas, actual, dentro = [], [], False
+    largo = 0
+
+    for palabra in texto.split():
+        visible = len(palabra.replace("|", ""))
+        if actual and largo + 1 + visible > max_chars:
+            linea = " ".join(actual)
+            if dentro:                      # cerrar el resaltado al cortar
+                linea += "|"
+            lineas.append(linea)
+            actual, largo = (["|"] if dentro else []), 0
+
+        actual.append(palabra)
+        largo += visible + (1 if largo else 0)
+        dentro ^= (palabra.count("|") % 2 == 1)
+
+    if actual:
+        lineas.append(" ".join(actual))
+    return lineas
+
+
 def write(path, svg: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(svg, encoding="utf-8")

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="127" viewBox="0 0 380 127" role="img" aria-label="Madrid  ·  juancambronerofresco@gmail.com  ·  Respondo a todo. Animaciones en SVG generados con Python desde scripts/, sin servicios de terceros.">
+<line x1="190" y1="8" x2="190" y2="8" stroke="#2a2523">
+  <animate attributeName="x1" from="190" to="76" begin="0.2s" dur="0.9s" fill="freeze"/>
+  <animate attributeName="x2" from="190" to="304" begin="0.2s" dur="0.9s" fill="freeze"/>
+</line>
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.6s" fill="freeze"/>
+  <text x="190" y="30" text-anchor="middle" fill="#a49e97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5">Madrid ·</text><text x="190" y="47" text-anchor="middle" fill="#a49e97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5">juancambronerofresco@gmail.com ·</text><text x="190" y="64" text-anchor="middle" fill="#a49e97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5">Respondo a todo.</text>
+</g>
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="0.75" begin="1.0s" dur="0.6s" fill="freeze"/>
+  <text x="190" y="87" text-anchor="middle" fill="#8a847c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5">Animaciones en SVG generados con Python desde</text><text x="190" y="102" text-anchor="middle" fill="#8a847c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5">scripts/, sin servicios de terceros.</text>
+</g>
+</svg>
