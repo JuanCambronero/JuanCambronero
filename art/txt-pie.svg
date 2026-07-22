@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="62" viewBox="0 0 860 62" role="img" aria-label="Madrid  ·  juancambronerofresco@gmail.com  ·  Respondo a todo. Animaciones en SVG generados con Python desde scripts/, sin servicios de terceros.">
+<line x1="430" y1="8" x2="430" y2="8" stroke="#2a2523">
+  <animate attributeName="x1" from="430" to="180" begin="0.2s" dur="0.9s" fill="freeze"/>
+  <animate attributeName="x2" from="430" to="680" begin="0.2s" dur="0.9s" fill="freeze"/>
+</line>
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.6s" fill="freeze"/>
+  <text x="430" y="34" text-anchor="middle" fill="#a49e97" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5">Madrid  ·  juancambronerofresco@gmail.com  ·  Respondo a todo.</text>
+</g>
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="0.75" begin="1.0s" dur="0.6s" fill="freeze"/>
+  <text x="430" y="52" text-anchor="middle" fill="#8a847c" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5">Animaciones en SVG generados con Python desde scripts/, sin servicios de terceros.</text>
+</g>
+</svg>
