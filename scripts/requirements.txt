@@ -1,0 +1,3 @@
+﻿# Todos los generadores usan solo la libreria estandar de Python.
+# Este archivo existe para que el workflow tenga algo que instalar
+# y para dejar sitio si algun dia se aniaden dependencias.

@@ -1,0 +1,49 @@
+name: Actualizar arte del perfil
+
+on:
+  schedule:
+    - cron: "17 6 * * *"      # todos los dias, ~06:17 UTC
+  workflow_dispatch:           # y a mano cuando quieras
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r scripts/requirements.txt
+
+      - name: Descargar datos publicos
+        run: |
+          python scripts/fetch_contributions.py
+          python scripts/fetch_stats.py
+
+      - name: Regenerar SVGs
+        working-directory: scripts     # los scripts hacen "from _style import ..."
+        run: |
+          python make_header.py
+          python make_typing.py
+          python make_badges.py
+          python make_stack.py
+          python make_stats.py
+          python make_timemaster.py
+          python render_activity.py
+          python render_heatmap_svg.py
+
+      # El retrato ASCII no se regenera aqui: depende de assets/foto.jpg,
+      # que no cambia, y evitamos instalar rembg/opencv en cada ejecucion.
+
+      - name: Commitear si algo cambió
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # [skip ci] evita que el propio commit vuelva a disparar el workflow
+          commit_message: "chore: actualizar arte del perfil [skip ci]"
+          file_pattern: art/*.svg data/*.json

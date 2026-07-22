@@ -1,48 +1,58 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,50:1E88E5,100:00C6FB&height=180&section=header&text=Juan%20Cambronero&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Full%20Stack%20Developer%20%C2%B7%20Java%20%2B%20Spring%20Boot%20%2B%20Angular&descAlignY=54&descSize=18&animation=fadeIn" width="100%" />
+<img src="art/header.svg" width="100%" alt="Juan Cambronero — Full Stack Developer · Java + Spring Boot + Angular" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=0A66C2&center=true&vCenter=true&width=620&lines=Java+17+%2B+Spring+Boot+3+%2B+Angular+17;I+built+TimeMaster%3A+119+commits%2C+graded+10%2F10;Ex-Viewnext+(IBM+Group)+%E2%80%94+IBM+Maximo+%2F+EAM;From+the+data+model+to+the+screen" />
+  <img src="art/typing.svg" width="700" alt="Java 17 + Spring Boot 3 + Angular 17 · Construí TimeMaster: 119 commits, 10/10 · Ex-Viewnext (Grupo IBM) · Del modelo de datos a la pantalla" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/juan-cambronero-000244309">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:juancambronerofresco@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
-  </a>
-  <img src="https://img.shields.io/badge/Madrid-Spain-6B7480?style=flat-square" />
-  <img src="https://img.shields.io/badge/Open%20to%20work-Full--time-2EA043?style=flat-square" />
+  <a href="https://www.linkedin.com/in/juan-cambronero-000244309"><img src="art/badge-linkedin.svg" alt="LinkedIn" /></a>
+  <a href="mailto:juancambronerofresco@gmail.com"><img src="art/badge-email.svg" alt="Email" /></a>
+  <a href="https://github.com/JuanCambronero"><img src="art/badge-github.svg" alt="GitHub" /></a>
+  <img src="art/badge-madrid.svg" alt="Madrid, España" />
+  <img src="art/badge-disponible.svg" alt="Disponible para jornada completa" />
 </p>
 
 <br>
 
-## About
+## Sobre mí
 
-I did my work placement at **Viewnext (IBM Group)**, in the area that works with **IBM Maximo** — the platform large companies use to manage their assets and their maintenance crews. I liked how it was put together. So I went home and built my own version of it.
+Hice mis prácticas en **Viewnext (Grupo IBM)**, en el área que trabaja con **IBM Maximo** — la plataforma con la que las grandes empresas gestionan sus activos y el trabajo de sus equipos de mantenimiento. Me enganchó cómo estaba pensada. Cuando acabaron las prácticas, se acabó el acceso.
 
-That's **TimeMaster**: Spring Boot 3 on the back, Angular 17 on the front, PostgreSQL underneath. 119 commits, no teammates. It was my final degree project and it got a **10/10**.
+No intenté clonar Maximo. Habría sido ridículo: es enorme, lleva años de trabajo de mucha gente detrás y hace cosas que yo todavía ni entiendo. Cogí una sola idea —cómo organiza el trabajo de un equipo— y construí algo enfocado solo en eso.
 
-I finished my Higher Diploma in Multiplatform Application Development (DAM) in June 2026, and I'm now studying Computer Engineering at UNED. Since it's distance learning, I'm available for full-time work.
+Eso es **TimeMaster**: Spring Boot 3 detrás, Angular 17 delante, PostgreSQL debajo. 119 commits, sin compañeros de equipo. Fue mi Proyecto Final de Ciclo y sacó un **10/10**.
 
-What I'm actually good at: taking a problem, understanding the domain behind it, and building the whole thing — data model, API, and screen.
+Me titulé en Desarrollo de Aplicaciones Multiplataforma (DAM) en junio de 2026 y ahora curso Ingeniería Informática en la UNED. Al ser a distancia, tengo plena disponibilidad para trabajar a jornada completa.
+
+Lo que se me da bien: coger un problema, entender el dominio que hay detrás y construirlo entero — modelo de datos, API y pantalla.
 
 <br>
 
 ## TimeMaster
 
-<a href="https://github.com/JuanCambronero/TimeMasterApp">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=JuanCambronero&repo=TimeMasterApp&theme=tokyonight&hide_border=true&border_radius=8" />
-</a>
-
-A task and workforce management platform for maintenance teams, modelled on enterprise EAM systems like IBM Maximo.
-
 <table>
-<tr><td><b>API</b></td><td>Spring Boot 3, layered architecture, DTOs, HikariCP pooling</td></tr>
-<tr><td><b>Data</b></td><td>PostgreSQL via Spring Data JPA</td></tr>
-<tr><td><b>Auth</b></td><td>Role-based access control (Manager / Operator) with Spring Security</td></tr>
-<tr><td><b>Workflow</b></td><td>Task states validated backend-side: <code>Pending → In Progress → Under Review → Completed/Rejected</code></td></tr>
-<tr><td><b>UI</b></td><td>Angular 17 standalone components, Tailwind CSS, real-time form validation, document storage with UUID protection</td></tr>
+<tr>
+<td valign="top" width="380">
+<a href="https://github.com/JuanCambronero/TimeMasterApp">
+  <img src="art/timemaster.svg" width="370" alt="TimeMaster: flujo de estados de una tarea, validado en el servidor." />
+</a>
+</td>
+<td valign="top">
+
+Plataforma de gestión de tareas y personal para equipos de mantenimiento, inspirada en sistemas EAM empresariales como IBM Maximo.
+
+**API** — Spring Boot 3, arquitectura en capas, DTOs, pool HikariCP
+
+**Datos** — PostgreSQL a través de Spring Data JPA
+
+**Acceso** — Control por roles (Manager / Operario) con Spring Security
+
+**Flujo** — Estados validados en el servidor: `Pendiente → En curso → En revisión → Completada/Rechazada`
+
+**UI** — Angular 17 standalone, Tailwind CSS, validación en tiempo real y gestión documental con protección UUID
+
+</td>
+</tr>
 </table>
 
 <br>
@@ -50,24 +60,28 @@ A task and workforce management platform for maintenance teams, modelled on ente
 ## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,angular,ts,postgres,tailwind,git,maven,mysql,mongodb,js,html,css,python,kotlin,idea&theme=dark&perline=8" />
+  <img src="art/stack.svg" width="100%" alt="Java 17, Spring Boot, Spring Data JPA, Spring Security, Angular, TypeScript, PostgreSQL, REST APIs, Tailwind, React, Node.js, JavaScript, Kotlin, Python, MySQL, MongoDB, Git, Maven, HTML5, CSS3, IntelliJ, Scrum, DTOs, RBAC" />
 </p>
 
 <p align="center">
-  <b>What I reach for first:</b> Java 17 · Spring Boot · Spring Data JPA · Spring Security · Angular · TypeScript · PostgreSQL · REST APIs
+  <b>Lo que uso primero:</b> Java 17 · Spring Boot · Spring Data JPA · Spring Security · Angular · TypeScript · PostgreSQL · APIs REST
 </p>
 
 <br>
 
-## Stats
+## Estadísticas
 
 <p align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=JuanCambronero&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&border_radius=8&hide=stars" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JuanCambronero&layout=compact&theme=tokyonight&hide_border=true&border_radius=8&langs_count=8" />
+  <img src="art/stats.svg" width="420" alt="193 contribuciones, 55 días activos, mejor racha 7 días, 9 repositorios, 119 commits en TimeMaster" />
+  <img src="art/langs.svg" width="420" alt="Lenguajes: HTML, Java, TypeScript, Python, CSS" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JuanCambronero&theme=tokyo-night&hide_border=true&radius=8&area=true" width="98%" />
+  <img src="art/activity.svg" width="100%" alt="Actividad semanal del último año" />
+</p>
+
+<p align="center">
+  <img src="art/contrib-heatmap.svg" width="100%" alt="Mapa de contribuciones del último año" />
 </p>
 
 <br>
@@ -75,5 +89,9 @@ A task and workforce management platform for maintenance teams, modelled on ente
 ---
 
 <p align="center">
-  <sub>Madrid · <a href="mailto:juancambronerofresco@gmail.com">juancambronerofresco@gmail.com</a> · I answer everything.</sub>
+  <sub>Madrid · <a href="mailto:juancambronerofresco@gmail.com">juancambronerofresco@gmail.com</a> · Respondo a todo.</sub>
+</p>
+
+<p align="center">
+  <sub>Todo lo animado de esta página son SVG generados con Python desde <a href="scripts/">scripts/</a> y commiteados al repo — sin servicios de terceros que se caigan o dejen imágenes rotas. GitHub elimina <code>&lt;script&gt;</code> de los README pero sí ejecuta animaciones SMIL dentro de un SVG, así que todo el movimiento vive dentro del propio archivo. Un GitHub Action los regenera cada día.</sub>
 </p>

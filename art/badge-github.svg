@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="30" viewBox="0 0 85 30" role="img" aria-label="GitHub">
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.5s" fill="freeze"/>
+  <rect width="85" height="30" rx="4" fill="#2a2523"/>
+  <circle cx="17.5" cy="16.0" r="6.5" fill="#edeae5"/><path d="M14.4 21.4 v-2.4 a2 2 0 0 1 2-2 h2.2 a2 2 0 0 1 2 2 v2.4" fill="none" stroke="#0f0d0c" stroke-width="1.4"/>
+  <text x="33" y="19" fill="#edeae5"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="500">GitHub</text>
+</g>
+</svg>

@@ -1,0 +1,65 @@
+{
+ "user": "JuanCambronero",
+ "generated": "2026-07-22",
+ "repos": 9,
+ "followers": 6,
+ "stars": 0,
+ "languages": [
+  {
+   "name": "HTML",
+   "pct": 32.7
+  },
+  {
+   "name": "Java",
+   "pct": 31.7
+  },
+  {
+   "name": "TypeScript",
+   "pct": 17.0
+  },
+  {
+   "name": "Python",
+   "pct": 14.7
+  },
+  {
+   "name": "CSS",
+   "pct": 3.1
+  },
+  {
+   "name": "JavaScript",
+   "pct": 0.6
+  }
+ ],
+ "recent": [
+  {
+   "name": "JuanCambronero",
+   "desc": "",
+   "lang": "\u2014",
+   "stars": 0
+  },
+  {
+   "name": "TimeMasterApp",
+   "desc": "",
+   "lang": "HTML",
+   "stars": 0
+  },
+  {
+   "name": "Sistema-Gestion-Colegio",
+   "desc": "",
+   "lang": "Python",
+   "stars": 0
+  },
+  {
+   "name": "Impostor",
+   "desc": "",
+   "lang": "Python",
+   "stars": 0
+  },
+  {
+   "name": "Hundir-la-flota",
+   "desc": "",
+   "lang": "Python",
+   "stars": 0
+  }
+ ]
+}

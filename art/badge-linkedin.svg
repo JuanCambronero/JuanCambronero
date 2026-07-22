@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="30" viewBox="0 0 99 30" role="img" aria-label="LinkedIn">
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.5s" fill="freeze"/>
+  <rect width="99" height="30" rx="4" fill="#0a66c2"/>
+  <rect x="11" y="12.0" width="3" height="9" fill="#edeae5"/><circle cx="12.5" cy="9.5" r="1.7" fill="#edeae5"/><path d="M16 21.0 v-9 h3 v1.2 a3.4 3.4 0 0 1 5.6 2.6 V21.0 h-3 v-4.6 a1.5 1.5 0 0 0 -3 0 V21.0 Z" fill="#edeae5"/>
+  <text x="33" y="19" fill="#edeae5"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="500">LinkedIn</text>
+</g>
+</svg>
