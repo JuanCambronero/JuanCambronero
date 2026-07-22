@@ -38,6 +38,10 @@ jobs:
           python make_projects.py
           python make_about.py
           python make_texto.py
+
+      # prep_ascii.py NO va aqui: necesita Pillow/numpy y red para bajar el
+      # avatar. La rejilla ya calculada vive en data/ascii.json. Ejecutalo a
+      # mano solo si cambias la foto de perfil.
           python render_activity.py
           python render_heatmap_svg.py
 
