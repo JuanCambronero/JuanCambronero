@@ -93,5 +93,5 @@ Plataforma de gestión de tareas y personal para equipos de mantenimiento, inspi
 </p>
 
 <p align="center">
-  <sub>Todo lo animado de esta página son SVG generados con Python desde <a href="scripts/">scripts/</a> y commiteados al repo — sin servicios de terceros que se caigan o dejen imágenes rotas. GitHub elimina <code>&lt;script&gt;</code> de los README pero sí ejecuta animaciones SMIL dentro de un SVG, así que todo el movimiento vive dentro del propio archivo. Un GitHub Action los regenera cada día.</sub>
+  <sub>Todo lo animado de esta página son SVG generados con Python desde <a href="scripts/">scripts</sub>
 </p>
