@@ -208,8 +208,8 @@ if __name__ == "__main__":
     # Escritorio: retrato a la izquierda, texto a la derecha.
     # 96 - 30 caracteres menos por linea, que el retrato se come 290px.
     write(art / "about.svg",
-          build(W=860, pad=30, cpl=66, size=13.5, size_giro=15,
-                lh=21, gap=13, size_cierre=12, retrato_ancho=290))
+          build(W=860, pad=30, cpl=56, size=13.5, size_giro=15,
+                lh=21, gap=13, size_cierre=12, retrato_ancho=360))
 
     # Movil: 380px, retrato arriba centrado. Se sirve a ~308px (81%),
     # asi que 13px quedan en ~10.5px. El cierre sube a INK_MID porque a
